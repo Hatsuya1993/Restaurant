@@ -1,12 +1,75 @@
+/* Start text-edit */
+
+.text-edit {
+  font-family: "Fondamento", cursive;
+}
+
+/* text-edit * */
+
 /* Start icon */
 
 .icon {
-    transition: all 0.5s linear;
+  transition: all 0.5s linear;
 }
 
 .icon:hover {
-    cursor: pointer;
-    color: white;
+  cursor: pointer;
+  color: white;
 }
 
 /* End icon */
+
+/* Start title-text */
+
+.title-text {
+  font-family: "Modak", cursive;
+}
+
+/* End title-text */
+
+/* Start banner */
+
+.banner {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/3620705/pexels-photo-3620705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* End banner */
+
+/* Start button-cont */
+
+.button-cont {
+  height: 60px;
+  position: relative;
+}
+
+/* End button-cont */
+
+/* Start button */
+
+.button {
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+  animation: down 2s infinite;
+  transition: all 0.5s linear;
+}
+
+@keyframes down {
+  0% {
+    top: 0%;
+  }
+  50% {
+    top: 40%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+/* End button */
