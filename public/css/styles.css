@@ -1,0 +1,12 @@
+/* Start icon */
+
+.icon {
+    transition: all 0.5s linear;
+}
+
+.icon:hover {
+    cursor: pointer;
+    color: white;
+}
+
+/* End icon */
