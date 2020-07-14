@@ -64,12 +64,22 @@
   0% {
     top: 0%;
   }
+
   50% {
     top: 40%;
   }
+
   100% {
     top: 0%;
   }
 }
 
 /* End button */
+
+/* Start nav2 */
+
+.nav2 {
+  position: fixed;
+}
+
+/* End nav2 */
