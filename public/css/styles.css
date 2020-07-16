@@ -31,12 +31,14 @@
 
 .banner {
   height: 90vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
     url("https://images.pexels.com/photos/3620705/pexels-photo-3620705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
+
 
 /* End banner */
 
@@ -83,3 +85,58 @@
 }
 
 /* End nav2 */
+
+/* Start items */
+
+#items {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/3763816/pexels-photo-3763816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* End items */
+
+/* Start border-set */
+
+.border-set {
+  transition: all 0.5s linear;
+  height: 200px;
+}
+
+.border-set:hover {
+  filter: brightness(50%);
+  transform: scale(1.05);
+  border-color: red;
+  outline: 10px solid #ffc107;
+  outline-offset: 0.3rem;
+}
+
+.img-content:hover .button-edit {
+  opacity: 1;
+}
+
+/* End border-set */
+
+/* Start img-content */
+
+.img-content {
+  position: relative;
+}
+
+/* End img-content */
+
+/* Start button-edit */
+
+.button-edit {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%);
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+
+/* End button-edit */
