@@ -140,3 +140,32 @@
 }
 
 /* End button-edit */
+
+/* Start menu-line */
+
+.menu-line {
+  border: 3px solid #dc3545;
+}
+
+/* End menu-line */
+
+/* Start  chef-sel */
+
+.chef-sel {
+  height: 30px;
+}
+
+/* End  chef-sel */
+
+/* Start menu-back */
+
+.menu-back {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url("https://images.pexels.com/photos/3620705/pexels-photo-3620705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* End menu-back */

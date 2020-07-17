@@ -4,3 +4,9 @@ $(document).ready(function () {
         perturbance: 0.03
     });
 })
+
+$(document).ready(function () {
+    $('.button-edit').magnificPopup({
+        type: 'image'
+    });
+});
