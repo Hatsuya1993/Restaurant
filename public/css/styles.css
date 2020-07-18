@@ -55,7 +55,6 @@
 
 .button {
   position: absolute;
-
   left: 50%;
   transform: translateX(-50%);
   animation: down 2s infinite;
@@ -169,3 +168,155 @@
 }
 
 /* End menu-back */
+
+/* Start about-img */
+
+.about-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/3763816/pexels-photo-3763816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* End about-img */
+
+/* Start alot-pic */
+
+.alot-pic {
+  position: relative;
+  height: 500px;
+}
+
+
+/* End alot-pic */
+
+/* Start pic-1 */
+
+.pic-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 200px;
+  width: 250px;
+  border: 3px solid white;
+  transition: all 0.5s linear;
+}
+
+.pic-1:hover {
+  outline: 10px solid #ffc107;
+  outline-offset: 0.3rem;
+  transform: rotate(20deg);
+  z-index: 1;
+  opacity: 1 !important;
+}
+
+.alot-pic:hover .pic-1:not(:hover) {
+  opacity: 0.5;
+}
+
+
+/* End pic-1 */
+
+/* Start pic-2 */
+
+.pic-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 200px;
+  width: 250px;
+  border: 3px solid white;
+  transition: all 0.5s linear;
+}
+
+.pic-2:hover {
+  outline: 10px solid #ffc107;
+  outline-offset: 0.3rem;
+  transform: rotate(20deg);
+  z-index: 1;
+}
+
+.alot-pic:hover .pic-2:not(:hover) {
+  opacity: 0.5;
+}
+
+/* End pic-2 */
+
+/* Start pic-3 */
+
+.pic-3 {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%);
+  height: 200px;
+  width: 250px;
+  border: 3px solid white;
+  transition: all 0.5s linear;
+}
+
+.pic-3:hover {
+  outline: 10px solid #ffc107;
+  outline-offset: 0.3rem;
+  transform: rotate(20deg);
+  z-index: 1;
+}
+
+.alot-pic:hover .pic-3:not(:hover) {
+  opacity: 0.5;
+}
+
+
+/* End pic-3 */
+
+/* Start pic-4 */
+
+.pic-4 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 200px;
+  width: 250px;
+  border: 3px solid white;
+  transition: all 0.5s linear;
+}
+
+.pic-4:hover {
+  outline: 10px solid #ffc107;
+  outline-offset: 0.3rem;
+  transform: rotate(20deg);
+  z-index: 1;
+}
+
+.alot-pic:hover .pic-4:not(:hover) {
+  opacity: 0.5;
+}
+
+/* End pic-4 */
+
+/* Start pic-5 */
+
+.pic-5 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 200px;
+  width: 250px;
+  border: 3px solid white;
+  transition: all 0.5s linear;
+}
+
+.pic-5:hover {
+  outline: 10px solid #ffc107;
+  outline-offset: 0.3rem;
+  transform: rotate(20deg);
+  z-index: 1;
+}
+
+.alot-pic:hover .pic-5:not(:hover) {
+  opacity: 0.5;
+}
+
+/* End pic-5 */
