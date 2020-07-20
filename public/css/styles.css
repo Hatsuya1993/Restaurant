@@ -156,10 +156,8 @@
 /* Start menu-back */
 
 .menu-back {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
+  background: linear-gradient(rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)),
     url("https://images.pexels.com/photos/3620705/pexels-photo-3620705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center;
   background-size: cover;
@@ -374,3 +372,16 @@
 }
 
 /* End team */
+
+/* Start contact */
+
+#contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/3763816/pexels-photo-3763816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* End contact */
