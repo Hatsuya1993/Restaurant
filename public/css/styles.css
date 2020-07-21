@@ -385,3 +385,25 @@
 }
 
 /* End contact */
+
+/* Start of footer */
+
+/* #footer {
+  position: relative;
+} */
+
+/* End of footer */
+
+/* Start arrow-up */
+
+.arrow-up {
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+}
+
+.arrow-up:hover {
+  cursor: pointer;
+}
+
+/* End arrow-up */
